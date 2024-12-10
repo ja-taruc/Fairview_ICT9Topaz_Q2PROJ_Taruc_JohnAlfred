@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+	<title>Canlig Liang⎮Barako Coffee</title>
+	<link rel="icon" type="image" href="https://cdn.discordapp.com/attachments/955396214646505483/1315516798312910940/99HdIAAAAwDPPveirGauCgORkBAgQmAcE1wZolQIAAAQIECBAgQICA4PIBAgQIECBAgAABAgQITAKCa4I1S4AAAQIECBAgQIAAAcHlAwQIECBAgAABAgQIEJgEBNcEa5YAAQIECBAgQIAAAQKCywcIECBAgAABAgQIECAwCQiuCdYsAQIECBAgQIAAAQIEBJcPECBAgAABAgQIECBAYBIQXBOsWQIECBAgQIAAAQIECAguHyBAgAABAgQIECBAgMAkILgmWLMECBAgQIAAAQIECBAQXD5AgAABAgQIECBAgACBSUBwTbBmCRAgQIAAAQIECBAgILh8gAABAgQIECBAgAABApOA4JpgzRIgQIAAAQIECBAgQEBwQABAgQIECBAgAABAgQmAcE1wZolQIAAAQIECBAgQICA4PIBAgQIECBAgAABAgQITAKCa4I1S4AAAQIECBAgQIAAAcHlAwQIECBAgAABAgQIEJgEBNcEa5YAAQIECBAgQIAAAQK..png?ex=6757b1fd&is=6756607d&hm=150f1ba375319510ea64d83d4aaf192bab182d6c9aa896e2b4bafcc45fc46fbb&">
+
+	<style>
+		body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: url('https://i.redd.it/mountain-province-v0-a5o7ffexfu1e1.jpg?width=4032&format=pjpg&auto=webp&s=a3f22a073c39e8a10978b502ba056d555f1649c5') no-repeat center center;
+            background-size: cover;
+
+		  #logo{
+        	width: 55px;
+        	height: 55px;
+        }
+
+        input{
+        	border-radius: 10px;
+        }
+
+        @font-face {
+   			 font-family: Tahoma;
+		}
+
+		@font-face {
+    		font-family: Tahoma;
+		}
+
+		*{
+		    margin: 0;
+		    padding: 0;
+		    box-sizing: border-box;
+		    font-family: outfit;
+		}
+
+		img {
+    		max-width: 100%;
+		}
+
+		ul,
+		ol {
+   			 padding-left: 20px;
+		}
+
+		body {
+    			background-color:  hsl(30, 54%, 90%);
+		}
+
+		h1, 
+		h2,
+		h3 {
+    		font-family: Tahoma;
+    		color: #db432c;
+    		letter-spacing: 0.05rem;
+		}
+
+		p,
+		li {
+    		line-height: 1.6;
+    		color: black;
+    		font-family: Tahoma;
+		}
+
+		li {
+   			 margin-top: 0.5rem;
+   			 font-family: Tahoma;
+		}
+
+		strong{
+			font-family: Tahoma;
+		}
+
+		.container {
+		    max-width: 900px;
+		    margin-inline: auto;
+		    background-color: #fff;
+		}
+
+		.container div:not(first-child) {
+   			 padding: 1.5rem;
+		}
+
+		.banner h1 {
+		    margin-bottom: 1rem;
+		}
+
+		.banner article {
+		    background-color: #e6ded1;
+		    padding: 1.5rem;
+		    border-radius: 15px;
+		    margin-top: 1.5rem;
+		}
+
+		.banner article h3 {
+		    color: #ff7e42;
+		    margin-bottom: 0.5rem;
+		}
+
+		.instructions {
+		    border-top: 1px solid hsl(30, 18%, 87%);
+		    border-bottom: 1px solid hsl(30, 18%, 87%);
+		}
+
+		.nutrition-steps .value {
+		    margin-bottom: 1rem;
+		}
+
+		.nutrition-steps .item {
+		    padding: 0.75rem 2rem;
+		    display: flex;
+		    transition: all 200ms ease;
+		    border-bottom: 1px solid hsl(30, 18%, 87%);
+		}
+
+		.nutrition-table .item:last-child {
+		    border-bottom: 0;
+		}
+
+		.nutrition-table .item p:nth-child(2){
+		    color: hsl(14, 45%, 36%);
+		    font-weight: 700;
+		}
+
+		.nutrition-table .item > * {
+		    width: 100px;
+		    margin-right: auto;
+		}
+
+
+		.attribution { 
+		    font-size: 13px; 
+		    text-align: center; 
+		    margin-bottom: 5rem;
+		    margin-top: 1rem;
+		}
+
+		.attribution a { 
+		    color: hsl(228, 45%, 44%); 
+		}
+
+		@media (min-width: 768px) {
+		    .container {
+		        margin: 5px auto 0;
+		        padding: 2rem;
+		        border-radius: 1rem;
+		    }
+
+		    .banner h1 {
+		        font-size: 2rem;
+		        color: #7d614c;
+		    }
+
+		    img {
+		        border-radius: 1rem;
+		    }
+
+
+       
+	</style>
+	<body>
+		<body>
+	<nav class="navbar navbar-expand-md bg-danger navbar-light fixed-top">
+		<!-- Brand/Logo -->
+	<div class="container-fluid">
+		<!-- Keep alignment attribute value as left -->
+		<a class="navbar-brand" href="index.html"><img align="left" id="logo" 
+			src="https://cdn.discordapp.com/attachments/955396214646505483/1315516798312910940/99HdIAAAAwDPPveirGauCgORkBAgQmAcE1wZolQIAAAQIECBAgQICA4PIBAgQIECBAgAABAgQITAKCa4I1S4AAAQIECBAgQIAAAcHlAwQIECBAgAABAgQIEJgEBNcEa5YAAQIECBAgQIAAAQKCywcIECBAgAABAgQIECAwCQiuCdYsAQIECBAgQIAAAQIEBJcPECBAgAABAgQIECBAYBIQXBOsWQIECBAgQIAAAQIECAguHyBAgAABAgQIECBAgMAkILgmWLMECBAgQIAAAQIECBAQXD5AgAABAgQIECBAgACBSUBwTbBmCRAgQIAAAQIECBAgILh8gAABAgQIECBAgAABApOA4JpgzRIgQIAAAQIECBAgQEBwQABAgQIECBAgAABAgQmAcE1wZolQIAAAQIECBAgQICA4PIBAgQIECBAgAABAgQITAKCa4I1S4AAAQIECBAgQIAAAcHlAwQIECBAgAABAgQIEJgEBNcEa5YAAQIECBAgQIAAAQK..png?ex=6757b1fd&is=6756607d&hm=150f1ba375319510ea64d83d4aaf192bab182d6c9aa896e2b4bafcc45fc46fbb&"></a>
+
+			<!-- Add Links -->
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+                        <a class="nav-link" href="main.html">𝗕𝗮𝗹𝗮𝘆⎮𝗛𝗼𝗺𝗲</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipe.html">𝗜𝗽𝗮𝗻𝗮𝗴𝗹𝘂𝘁𝗼⎮𝗥𝗲𝗰𝗶𝗽𝗲𝘀</a>
+                    </li>
+					<li class="nav-item">
+						<a class="nav-link" href="form.html">𝗜𝗽𝗶𝗻𝗮𝗴𝗹𝘂𝘁𝗼𝗺⎮𝗬𝗼𝘂𝗿 𝗥𝗲𝗰𝗶𝗽𝗲𝘀</a>
+					</li>
+				</ul>
+				<!-- Add a search bar -->
+				<form class="d-flex">
+					<input class="form-warning" type="text" placeholder="Search">
+					<button class="btn btn-warning " type="button">Search</button>
+					</form>
+					</div>
+
+				</div>
+			</nav>
+		<br>
+	<br>
+<br>
+<br>
+<br>
+
+<body>
+  <div class="container">
+    <img src="https://ph-test-11.slatic.net/p/936ba17004e93362daaf98f756e05d97.jpg" alt="barako"/>
+    <div class="banner">
+      <h1>How to Brew Barako Coffee</h1>
+      <p> A strong and healthy source of caffeine using Cordillera raised beans, while being in the sunny cold morning of Baguio.
+      </p>
+  <article>
+    <h3>Preparation time</h3>
+    <ul>
+      <li><strong>Total:</strong> 15 Minutes</li>
+      <li><strong>Preparation:</strong> 5 minutes</li>
+      <li><strong>Cooking:</strong> 10 Minutes</li>
+    </ul>
+  </article>
+    </div>
+ <div class="ingredients">
+  <h2>Ingredients</h2>
+  <ul>
+    <li>Ground Barako Coffee</li>
+    <li>Water</li>
+    <li>Optional: Creamer and Sugar</li>
+  </ul>
+ </div>
+  <div class="instructions">
+    <h2>Instructions</h2>
+    <ol>
+      <li><strong>Boil Water:</strong> In a coffee pot, fill it with water and bring to boil.
+      Take it off the heat source before it boils
+  	  </li>
+      <li><strong>Place the beans into the water</strong> Put 2 tablespoons of Barako Coffee Grounds into the water and put on the lid of the pot.
+      </li>
+      <li><strong>Brew the coffee:</strong> Let the coffee grounds brew for 3-5 minutes. Then serve.</li>
+    
+      <li><strong>Enjoy:</strong> Serve hot, add creamer or sugar if you want but it is recommended to enjoy the drink without it.</li>
+    </ol>
+  </div>
+  <div class="nutrition-steps">
+    <h2>Nutrition</h2>
+    <p class="values">The table below shows nutritional values per serving without the additional fillings.</p>
+    <div class="nutrition-table">
+      <div class="item">
+        <p>Calories</p>
+        <p class="ammount">2kcal</p>
+      </div>
+      <div class="item">
+        <p>Carbs</p>
+        <p class="ammount">1g></p>
+      </div>
+      <div class="item">
+        <p>Protein</p>
+        <p class="ammount">0g</p>
+      </div>
+      <div class="item">
+        <p>Fat</p>
+        <p class="ammount">0g</p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="attribution">
+ 
+  </div>
+</body>
+</html>
